@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://pagecdn.io/lib/easyfonts/open-sans.css" rel="stylesheet" />
+  <link href="https://pagecdn.io/lib/easyfonts/libre-baskerville.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="public/css/style.min.css">
+  <title>Carousel</title>
+</head>
+<body class="bg-gray-900 font-open-sans">
+  <!-- Header -->
+  <header class="bg-white h-16 flex items-center">
+    <div class="container mx-auto px-6">
+      <span class="text-2xl italic font-semibold font-libre-baskerville">Carousel</span>
+    </div>
+  </header>
+  <main>
+    <div class="banner">
+      <div class="w-full relative">
+        <div class="main-img">
+          <img src="images/image (1).jpg" alt="">
+        </div>
+        <div class="wrapper-components absolute top-0 flex items-center w-full">
+          <div class="container mx-auto flex px-6">
+            <div class="flex flex-col lg:flex-row w-full">
+              <div class="w-full max-w-2xl mb-4">
+                <div class="wrapper-controls flex">
+                  <button class="arrowL flex items-center justify-center h-14 w-16">
+                    <i class="material-icons text-4xl">chevron_left</i>
+                  </button>
+                  <button class="arrowR flex items-center justify-center h-14 w-16">
+                    <i class="material-icons text-4xl">navigate_next</i>
+                  </button>
+                </div>
+                <div class="wrapper-captions flex flex-col">
+                  <figure class="active">
+                    <figcaption class="active">
+                      <h1>First Heading Caption</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, natus adipisci commodi voluptates repellendus nulla, consectetur unde vitae maxime officiis sunt accusamus cumque doloremque quod, libero qui esse voluptatem nobis.</p>
+                      <a class="btn" href="#">Read More</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="">
+                    <figcaption class="">
+                      <h1>Second Heading Caption</h1>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium perferendis ullam alias, nostrum rerum tempore eligendi quidem? Voluptatem ipsum blanditiis hic ullam eum quos, expedita ex deleniti veritatis autem maiores?</p>
+                      <a class="btn" href="#">Read More</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="">
+                    <figcaption class="">
+                      <h1>Third Heading Caption</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iusto odio iste voluptatem commodi? Dolorum, quisquam excepturi quibusdam doloremque qui velit ad dignissimos maiores numquam eius, minus, quam vel? Laudantium?</p>
+                      <a class="btn" href="#">Read More</a>
+                    </figcaption>
+                  </figure>
+                  <figure class="">
+                    <figcaption class="">
+                      <h1>Fourt Heading Caption</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quam tenetur delectus a quos sapiente dolores beatae explicabo, ex adipisci accusantium eos illum sint odit, labore doloremque hic eum magnam!</p>
+                      <a class="btn" href="#">Read More</a>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div class="lg:ml-auto max-w-2xl lg:flex lg:items-end">
+                <div class="wrapper-thumbs flex justify-center lg:flex-col xl:flex-row flex-wrap lg:max-w-sm 2xl:max-w-2xl">
+                  <img class="active" src="images/image (1).jpg" alt="">
+                  <img class="" src="images/image (2).jpg" alt="">
+                  <img class="" src="images/image (3).jpg" alt="">
+                  <img class="" src="images/image (4).jpg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="public/js/carousel.min.js"></script>
+</body>
+</html>
