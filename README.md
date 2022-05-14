@@ -5,6 +5,6 @@
 - CSS
 - JAVASCRIPT
 <p>I'm make it with <b>CSS Preprocessor</b>
-But i'm just use <b>Vanilla Javascript</b> for the button interactive.</p>
+But i'm just use <b>Vanilla Javascript</b> for interactive surely and the website is still too heavy.</p>
 
 ***Thank you for your attention.***
